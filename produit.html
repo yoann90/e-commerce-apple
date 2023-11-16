@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="header-produit">
+      <header class="produit-header">
+        <a href="#" class="logo">
+          <img src="src/logo.png" alt="" />
+        </a>
+        <ul>
+          <li>
+            <a href="test2.html" target="_blank" id="home">Home</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="test2.2.html" class="dropdown" target="_blank">Produit</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="test2.html" target="_blank">Contact</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <!-- <a href="#" class="panier active" target="_blank" <i class="fa-solid fa-cart-shopping"></i>Panier</a> -->
+            <span onclick="openNav()" class="open-panier">Panier </span>
+          </li>
+        </ul>
+        <hr />
+      </header>
+
+      <div class="img-header">
+        <img src="src/Screenshot.jpeg" alt="" />
+      </div>
+    </section>
+
+    <!-- Panier -->
+    <div id="mySidenav" class="sidenav" id="cart">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <p>Panier</p>
+      <ul id="cart-items"></ul>
+      <button id="clear-cart">Vider le panier</button>
+      <div class="sidebar">
+        
+        <div class="foot">
+          <h3>Total: <span id="cart-total">$0.00</span></h3>
+        </div>
+      </div>
+      <button  class="commande">Valider la commande</button>
+    </div>
+
+    <!-- ----fIN PAnier -->
+
+    <section class="produits">
+      <h3>Les Modèles</h3>
+      <h2>Iphone</h2>
+      <div class="produit-iphone" id="products">
+        <div class="box2">
+          <img src="src/Iphone-01.png" alt="" />
+          <h4>Iphone 15 pro</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus, quo.
+          </p>
+          <p class="price">Prix : $999.00</p>
+          <button
+            class="add-to-cart"
+            data-name="Iphone 15 pro"
+            data-price="999.00"
+            data-image="src/Iphone-01.png"
+          >
+            Ajouter au panier
+          </button>
+
+          <!-- <div class="btn">
+            <a href="">Voir le produit</a>
+            <a href="">ajouter au panier</a>
+          </div> -->
+          <!-- fin du test ajout au panier  -->
+        </div>
+        <div class="box2">
+          <img src="src/Iphone-02.png" alt="" />
+          <h4>Iphone 15 pro Max</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus, quo.
+          </p>
+          <p class="price">Prix : $1199.00</p>
+          <button
+          class="add-to-cart"
+          data-name="Iphone 15 pro Max"
+          data-price="1199.00"
+          data-image="src/Iphone-02.png"
+        >
+          Ajouter au panier
+        </button>
+          <!-- <div class="btn">
+            <a href="">Voir le produit</a>
+            <a href="">ajouter au panier</a>
+          </div> -->
+        </div>
+        <div class="box2">
+          <img src="src/Iphone-03.png" alt="" />
+          <h4>Iphone 15 pro Max</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus, quo.
+          </p>
+          <p class="price">Prix : $1199.00</p>
+          <button
+          class="add-to-cart"
+          data-name="Iphone 15 pro Max"
+          data-price="1199.00"
+          data-image="src/Iphone-03.png"
+        >
+          Ajouter au panier
+        </button>
+          <!-- <div class="btn">
+            <a href="">Voir le produit</a>
+            <a href="">ajouter au panier</a>
+          </div> -->
+        </div>
+        <div class="box2">
+          <img src="src/Iphone-01.png" alt="" />
+          <h4>Iphone 15 pro</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus, quo.
+          </p>
+          <p class="price">Prix : $999.00</p>
+          <button
+          class="add-to-cart"
+          data-name="Iphone 15 pro"
+          data-price="999.00"
+          data-image="src/Iphone-01.png"
+        >
+          Ajouter au panier
+        </button>
+          <!-- <div class="btn">
+            <a href="">Voir le produit</a>
+            <a href="">ajouter au panier</a>
+          </div> -->
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <img src="src/montre-acceuil.jpeg" class="acceuil" alt="" />
+    <section class="montre">
+      <h2>Montre Apple watch</h2>
+
+      <div class="produit-montre">
+        <div class="box3">
+          <img src="src/montre-1.jpeg" alt="" />
+          <h4>Montre Apple watch</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus, quo.
+          </p>
+          <p  class="price">Prix : $449.00</p>
+          <button
+            class="add-to-cart"
+            data-name="Montre Apple watch"
+            data-price="449.00"
+            data-image="src/montre-1.jpeg"
+          >
+            Ajouter au panier
+          </button>
+          <!-- <div class="btn">
+            <a href="">Voir le produit</a>
+            <a href="">ajouter au panier</a>
+          </div> -->
+        </div>
+        <div class="box3">
+          <img src="src/montre-2.jpeg" alt="" />
+          <h4>Montre Apple watch Ultra 2</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus, quo.
+          </p>
+          <p class="price">Prix : $899.00</p>
+          <button
+            class="add-to-cart"
+            data-name="Montre Apple watch Ultra 2"
+            data-price="899.00"
+            data-image="src/montre-2.jpeg"
+          >
+            Ajouter au panier
+          </button>
+          <!-- <div class="btn">
+            <a href="">Voir le produit</a>
+            <a href="">ajouter au panier</a>
+          </div> -->
+        </div>
+        <div class="box3">
+          <img src="src/montre-3.jpeg" alt="" />
+          <h4>Montre Apple watch SE </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus, quo.
+          </p>
+          <p class="price">Prix : $279.00</p>
+          <button
+            class="add-to-cart"
+            data-name="Montre Apple watch SE"
+            data-price="279.00"
+            data-image="src/montre-3.jpeg"
+          >
+            Ajouter au panier
+          </button>
+          <!-- <div class="btn">
+            <a href="">Voir le produit</a>
+            <a href="">ajouter au panier</a>
+          </div> -->
+        </div>
+        <div class="box3">
+          <img src="src/montre-4.jpeg" alt="" />
+          <h4>Montre Apple watch Hermès</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus, quo.
+          </p>
+          <p class="price">Prix : $1399.00</p>
+          <button
+            class="add-to-cart"
+            data-name="Montre Apple watch Hermès"
+            data-price="1399.00"
+            data-image="src/montre-4.jpeg"
+          >
+            Ajouter au panier
+          </button>
+          <!-- <div class="btn">
+            <a href="">Voir le produit</a>
+            <a href="">ajouter au panier</a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container2">
+        <div class="reseaux-social">
+          <a href="#" <i class="fa-brands fa-instagram"></a>
+          <a href="#" <i class="fa-brands fa-twitter"></a>
+          <a href="#" <i class="fa-brands fa-facebook"></a>
+        </div>
+
+        <div class="entreprise">
+          <h5>Pour les entreprises</h5>
+          <a href="">
+            <p>Apple et les entreprises</p>
+            <p>Acheter pour votre entreprise</p>
+          </a>
+        </div>
+        <div class="education">
+          <h5>Pour l’Éducation</h5>
+          <a href="">
+            <p>Apple et l’Éducation</p>
+            <p>Acheter pour l’université</p>
+          </a>
+        </div>
+        <div class="santé">
+          <h5>Pour la santé</h5>
+          <a href="">
+            <p>Apple dans le secteur de la santé</p>
+            <p>La santé sur Apple Watch</p>
+          </a>
+        </div>
+
+        <div class="Valeurs">
+          <h5>Valeurs d’Apple</h5>
+          <a href="">
+            <p>Accessibilité</p>
+            <p>Éducation</p>
+            <p>Environnement</p>
+            <p>Confidentialité</p>
+            <p>Responsabilité des fournisseurs</p>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="addtocart.js"></script>
+    <script src="index2.js"></script>
+  </body>
+</html>
