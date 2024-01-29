@@ -1,5 +1,10 @@
 # e-commerce-apple
 
+## Tech Stack
+
+**Client:** Javascript, CSS, HTML
+
+
 ## Run Locally
 
 Clone the project
