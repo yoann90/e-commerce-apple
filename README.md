@@ -1,5 +1,9 @@
 # e-commerce-apple
 
+```bash
+  npm run deploy
+```
+
 
 <img width="1440" alt="Capture d’écran 2024-01-29 à 11 55 09" src="https://github.com/yoann90/e-commerce-apple/assets/135041871/3120ac16-40d3-467f-a622-8bdd0edf75c5">
 
