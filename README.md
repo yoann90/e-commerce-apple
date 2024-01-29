@@ -5,7 +5,7 @@
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone [https://link-to-project](https://github.com/yoann90/e-commerce-apple.git)
 ```
 
 Go to the project directory
