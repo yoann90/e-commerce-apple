@@ -1,8 +1,7 @@
 # <h1 align="center">site e-commerce-apple</h1>
 
-Concevoir un site e-commerce permettant aux utilisateurs d'ajouter des produits à leur panier et de les supprimer 
 
-
+Le projet  est un site e-commerce dédié à la vente de produit Apple. Cette réalisation a été menée par moi même sur une période de 1 mois.
 
 ## Tech Stack
 
@@ -19,6 +18,23 @@ Concevoir un site e-commerce permettant aux utilisateurs d'ajouter des produits 
 <img width="1440" alt="Capture d’écran 2024-01-29 à 11 55 09" src="https://github.com/yoann90/e-commerce-apple/assets/135041871/3120ac16-40d3-467f-a622-8bdd0edf75c5">
 
 ##
+
+<h2 align="center">Organisation du Projet</h2>
+
+Le processus de développement a suivi une structure organisationnelle efficace. Durant les deux premières semaines, j'ai réalisé la structure du site. Après cette période, j'ai travaillé sur la partie responsive et le panier.
+
+<h2 align="center">Fonctionnalités Principales</h2>
+
+<h3>Affichage des produits:</h3>
+
+* Présentation attrayante des produits avec des visuels dynamique.
+
+<h3>Gestion de Panier :</h3>
+
+* Ajout facile de produits au panier d'achat.
+* Visualisation et modification du contenu du panier avant le paiement.
+  
+
 <h2 align="center">Exemple des produits disponibles sur le site.</h2>
 
 <img width="1440" alt="Capture d’écran 2024-01-29 à 11 56 01" src="https://github.com/yoann90/e-commerce-apple/assets/135041871/468e7b14-fc98-41b5-915a-707b35e1aab5">
