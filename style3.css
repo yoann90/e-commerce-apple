@@ -630,7 +630,24 @@ footer {
   line-height: 20px;
   font-size: calc(5px + 0.5vw);
 }
-
+.container3 {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0px 10px 0 10px;
+}
+.container3 a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+  line-height: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  font-size: calc(5px + 0.5vw);
+}
 .reseaux-social {
   position: relative;
   display: flex;
