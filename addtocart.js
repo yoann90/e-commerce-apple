@@ -48,7 +48,7 @@ function updateCartDisplay() {
   cartItems.innerHTML = '';
   cartContents.items.forEach((item, index) => {
     const listItem = document.createElement('li');
-    listItem.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+    listItem.textContent = `${item.name} - ${item.price.toFixed(2)}`;
 
     // Créez un élément img pour afficher l'image du produit
     const productImage = document.createElement('img');
@@ -65,7 +65,7 @@ function updateCartDisplay() {
     cartItems.appendChild(listItem);
   });
 
-  cartTotal.textContent = `$${cartContents.total.toFixed(2)}`;
+  cartTotal.textContent = `${cartContents.total.toFixed(2)}`;
 }
 
 // Ajoutez un écouteur d'événement pour chaque bouton "Ajouter au panier"
