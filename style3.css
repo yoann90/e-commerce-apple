@@ -214,7 +214,7 @@ h3 {
     top: 260px;
   }
   .box2 .price {
-    top: 350px;
+    top: 330px;
   }
   .box2 a {
     display: block;
@@ -227,6 +227,9 @@ h3 {
   }
    .box2 img {
     width: 300px;
+  }
+  .add-to-cart {
+    margin-top: 70px;
   }
   .header-produit {
     height: 10vh;
@@ -842,6 +845,7 @@ h5 {
   cursor: pointer;
   line-height: 10px;
   font-size: calc(6px + 1vw);
+ 
 }
 .add-to-cart:hover {
   background: grey;
