@@ -216,6 +216,9 @@ h3 {
   .box2 .price {
     top: 330px;
   }
+  .box3 .price {
+    top: 300px;
+  }
   .box2 a {
     display: block;
     margin-bottom: 5px;
@@ -228,8 +231,14 @@ h3 {
    .box2 img {
     width: 300px;
   }
+   .box3 img {
+    width: 200px;
+  }
   .add-to-cart {
     margin-top: 70px;
+  }
+  .box3 .add-to-cart {
+  top: 50px;
   }
   .header-produit {
     height: 10vh;
@@ -246,9 +255,8 @@ h3 {
     top: 70px;
   }
   .box3 p {
-    top: 370px;
-    display: flex;
-    text-align: center;
+    top: 260px;
+   
   }
   .box3 .btn {
     display: block;
@@ -933,7 +941,8 @@ h5 {
 .box3 .price {
   font-size: calc(10px + 1vw);
   font-weight: 700;
-  top: 450px;
+  margin-bottom: -30px;
+  /* top: 450px; */
 }
 .box3 .add-to-cart {
   border: 1px solid #333;
@@ -945,8 +954,8 @@ h5 {
   cursor: pointer;
   line-height: 6px;
   font-size: calc(6px + 1vw);
-  top: 150px;
   position: relative;
+  bottom:-150px;
 }
 .add-to-cart:hover {
   background: grey;
