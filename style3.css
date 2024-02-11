@@ -94,6 +94,7 @@ header ul li span:hover {
   background: grey;
 }
 .box-img {
+  position: relative;
   width: 500px;
   display: flex;
   justify-content: flex-end;
@@ -169,6 +170,7 @@ h3 {
   }
   .box-img {
     justify-content: center;
+    top: 100px;
   }
   .box-img img {
     order: 1;
@@ -245,8 +247,7 @@ h3 {
   }
   .img-header img {
     max-width: 1050px;
-    
-  
+
     max-height: 600px;
   }
   .box3 {
