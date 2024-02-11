@@ -14,7 +14,7 @@ html {
 
 section {
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 
   width: 100%;
   display: flex;
@@ -147,7 +147,7 @@ h3 {
 
 @media screen and (max-width: 1296px) {
   section {
-    height: 150vh;
+    /* height: 150vh;  dernier modif   */
     scroll-snap-align: start;
   }
   header ul {
@@ -241,7 +241,7 @@ h3 {
   top: 50px;
   }
   .header-produit {
-    height: 10vh;
+    max-height: 70vh;
   }
   .box3 {
     position: relative;
@@ -722,13 +722,15 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding: 20px 100px;
+  /* height: 100vh; */
+  /* padding: 20px 100px; */
+  padding: 20px 0px;
   width: 100%;
-  background: black;
+  /* background: black; */
+  border: 1px solid red;
 }
 .img-header {
-  top: 80px;
+  top: 55px;
   position: relative;
   display: flex;
   justify-content: center;
